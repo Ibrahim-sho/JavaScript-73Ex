@@ -12,14 +12,14 @@
 (function questions() {
 
     // your code here
-    let age = parseInt(prompt("How old are you ?"));
+    let age = prompt("How old are you ?");
     let gender = prompt("What is your gender?");
     let city = prompt("In which city do you live?");
 
     let answer = confirm("Do you confirm your answers ?" + "\n" + age + "\n" + gender +"\n"+ city);
         if (answer == true) {
             alert("Thanks for the information");
-        }
+        } 
         else{
             questions();
         }
