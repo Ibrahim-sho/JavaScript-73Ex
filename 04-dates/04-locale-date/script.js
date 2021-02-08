@@ -12,7 +12,7 @@
 (function() {
     const now = new Date;
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', time: 'numeric' };
-    let str = (now.toLocaleDateString('en-EN', options));
+    let str = (now.toLocaleDateString('ar-AR', options));
     let res = str.replace("Change me !", str);
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
     console.log(now);
