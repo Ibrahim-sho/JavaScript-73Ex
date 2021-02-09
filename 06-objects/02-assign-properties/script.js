@@ -26,5 +26,14 @@
         os: "linux",
         user: null,
     };
-    // your code here
+
+    document.getElementById("run").addEventListener("click", function () {
+        computers.forEach(element =>{
+
+            Object.assign(element, defaultProps);
+            console.log(computers);
+        })
+
+    })
+
 })();
